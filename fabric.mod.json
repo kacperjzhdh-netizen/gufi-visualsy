@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "fazevisuals",
+  "version": "${version}",
+  "name": "FazeVisuals",
+  "description": "Animated HUD, hit effects and sounds. Requires a license key.",
+  "authors": ["TY"],
+  "license": "All-Rights-Reserved",
+  "environment": "client",
+  "entrypoints": { "client": ["pl.fazevisuals.FazeVisualsClient"] },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
